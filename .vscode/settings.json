@@ -2,6 +2,9 @@
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": true,
     "python.linting.lintOnSave": true,
+    "python.linting.pylintArgs": [
+        "--disable=missing-class-docstring,missing-function-docstring,missing-module-docstring"
+    ],
     "python.testing.unittestArgs": [
         "-v",
         "-s",
