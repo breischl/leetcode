@@ -5,9 +5,9 @@ from collections import deque
 
 
 class ListNode:
-    def __init__(self, val=0, next=None):
+    def __init__(self, val=0, next_n=None):
         self.val = val
-        self.next = next
+        self.next = next_n
 
 
 class Solution:

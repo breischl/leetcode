@@ -1,4 +1,3 @@
-from queue import Empty
 import unittest
 import palindrome_linked_list
 
